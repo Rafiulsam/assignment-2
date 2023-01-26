@@ -1,0 +1,31 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap');
+
+/* universal */
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Header Styles */
+header {
+    background-color: rgba(255, 144, 14, 0.1);
+    ;
+}
+
+/* Nav-bar Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 130px 102px 130px;
+}
+
+nav ul li {
+    list-style: none;
+
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+}
