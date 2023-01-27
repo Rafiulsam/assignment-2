@@ -275,7 +275,7 @@ nav ul {
     font-size: 13px;
     color: #727272;
     line-height: 20px;
-    
+
 }
 
 .sponsor-container {
@@ -289,6 +289,25 @@ nav ul {
     width: 100px;
     filter: grayscale(100%);
 
+}
+
+/* Footer Styles */
+
+.footer {
+    background-color: #FFF4E7;
+    height: 60px;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 120px;
+}
+
+.footer-description {
+    font-weight: 400;
+    font-size: 13px;
+    color: #424242;
 }
 
 /* Media Query */
@@ -320,7 +339,8 @@ nav ul {
         padding: 0px 40px;
     }
 
-    .banner img {
+    .banner img,
+    .container img {
         width: 100%;
         height: 100%;
     }
@@ -331,10 +351,6 @@ nav ul {
         gap: 8px;
     }
 
-    .container img {
-        width: 100%;
-        height: 100%;
-    }
 
     .features {
         flex-direction: column;
@@ -388,8 +404,13 @@ nav ul {
         gap: 30px;
         align-items: center;
     }
-    .sponsor-description{
+
+    .sponsor-description {
         margin: 10px;
     }
 
+    /* Footer responsive */
+    .footer {
+        margin: 30px;
+    }
 }
